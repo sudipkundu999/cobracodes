@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NotesComponent from "./components/NotesComponent";
 
-
 const Home: NextPage = () => {
   const { data: sessionData, status } = useSession();
   return (
