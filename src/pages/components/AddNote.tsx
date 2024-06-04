@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 
 type Topic = RouterOutputs["topic"]["getAll"][0];
-//
+
 interface AddNoteProps {
   topics: Topic[];
   setNoteTopicId: React.Dispatch<React.SetStateAction<string>>;
